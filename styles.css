@@ -20,6 +20,7 @@ input[type=button]:hover {
     background-color: #45a049;
 }
 body {
+    color: #45a049;
     margin: auto;
     text-align: center;
     padding: 20px;
@@ -46,7 +47,4 @@ label {
 #main{
 	width: 50%;
 	margin: 0 auto;
-}
-h1 {
-    color: #45a049;
 }
