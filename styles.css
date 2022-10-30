@@ -20,11 +20,13 @@ input[type=button]:hover {
     background-color: #45a049;
 }
 body {
-    color: #45a049;
     margin: auto;
     text-align: center;
     padding: 20px;
     font-family: 'Open Sans', serif;
+}
+header > h1 {
+    color: #45a049;
 }
 label {
     display: inline-block;
