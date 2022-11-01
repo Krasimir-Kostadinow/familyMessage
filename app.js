@@ -5,10 +5,7 @@ window.addEventListener('load', () => {
     const control = document.querySelector('#controls');
 
     const [author, content, btnSend, btnRefresh, btnDelete] = control.querySelectorAll('input');
-    let date = new Date();
-    console.log(date);
-    let today = moment(new Date()).format('DD.MM.YYYY / HH.mm');
-    console.log(today);
+
     async function sendMessage() {
 
         if (author.value !== '' && content.value !== '') {
