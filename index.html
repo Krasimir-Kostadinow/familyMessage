@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Messenger</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 </head>
 
 <body>
@@ -15,14 +16,16 @@
     <div id="main">
         <textarea id="messages" cols="80" rows="12" disabled="true"></textarea>
         <div id="controls">
-            <label for="author">Name: </label><input name="author" type="text"><br>
-            <label for="content">Message: </label><input name="content" type="text"><br>
+            <label for="author">Name: </label><input name="author" class="input" type="text"><br>
+            <label for="content">Message: </label><input name="content" class="input" type="text"><br>
             <input id="submit" type="button" value="Send">
             <input id="refresh" type="button" value="Refresh">
             <input id="delete" type="button" value="Delete">
         </div>
     </div>
+
     <script type="module" src="app.js"></script>
+
 </body>
 
 </html>
