@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
 
         if (author.value !== '' && content.value !== '') {
             try {
-                let data = await api.requests('POST', { author: author.value, content: content.value, today: moment(new Date()).format('DD.MM.YYYY / HH.mm') });
+                let data = await api.requests('POST', { author: author.value, content: content.value, today: moment(new Date()).format('DD.MM.YYYY / HH:mm') });
                 author.value = '';
                 content.value = '';
             } catch (error) {
